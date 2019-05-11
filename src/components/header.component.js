@@ -21,13 +21,23 @@ class Header extends React.Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/join">Join</a>
+                <Link to="/join" className="nav-link">Join</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/create">Create</a>
+                <Link to="/create" className="nav-link">Create</Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav navbar-right">
+              <li className="nav-item">
+              <button type="button" class="btn btn-outline-dark">
+                  <span class="glyphicon glyphicon-house" aria-hidden="true"></span>Login
+              </button>
+              <button type="button" class="btn btn-outline-dark">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Sign Up
+              </button>
               </li>
             </ul>
           </div>
