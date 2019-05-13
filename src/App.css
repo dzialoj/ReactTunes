@@ -38,3 +38,21 @@ input[type=text]{
 .music-queue{
   text-align: center;
 }
+#queue-anims{
+  display: flex;
+  border-style: solid;
+  margin-top: 10px;
+}
+#queue-anim1{
+  border-style: solid;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  width: 50vw;
+}
+#queue-anim2{
+  border-style: solid;
+  flex: 1;
+  text-align: center;
+  margin-top: 10px;
+}
